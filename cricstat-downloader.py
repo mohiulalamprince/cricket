@@ -1,4 +1,4 @@
-
+import panda as pd
 from lxml import html
 
 for x in range(1, 4009):
