@@ -16,6 +16,6 @@ def formatting_unbitten_and_dnb(run):
     return run
 
 ignore_dnb = udf(formatting_unbitten_and_dnb, StringType())
-df.withColumn("Runs", ignore_dnb("Runs"))
+df = df.withColumn("Runs", ignore_dnb("Runs"))
 df.registerTempTable('players')
 sqlContext.sql("select Player, sum(Runs) as total_runs from players group by Player order by total_runs desc").show()
