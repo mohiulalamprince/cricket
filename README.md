@@ -9,4 +9,5 @@ Note: Here is the downloaded data location
 
 Here is my tech blog:
     http://tech.mohiulalam.com
+    http://tech.mohiulalam.com/2017/03/07/historical-cricket-data-download-and-analysis/
 
